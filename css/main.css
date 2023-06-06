@@ -1,7 +1,7 @@
 /* USER VARIABLES SECTION */
 
 :root {
-  --accent: orange;
+  --accent: #cc8869;
   --text: #333;
   --regular-text: 16px;
   --lineheight: 1.65;
@@ -27,7 +27,6 @@
 }
 
 /* FONTS LOAD SECTION */
-
 @font-face {
   src: url('../fonts/roboto-regular-webfont.woff2') format('woff2');
   font-family: 'roboto-st';
@@ -49,6 +48,12 @@
 @font-face {
   src: url('../fonts/roboto-bolditalic-webfont.woff2') format('woff2');
   font-family: 'roboto-st';
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  src: url('../fonts/assassin.woff2') format('woff2');
+  font-family: 'assassin-st';
   font-weight: 700;
   font-style: italic;
 }
